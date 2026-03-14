@@ -1,0 +1,16 @@
+{
+  "name": "canvas-offline-web",
+  "version": "1.0.0",
+  "description": "Canvas Offline Web Server",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "build": "flutter build web",
+    "serve": "npm run build && npm start"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "node-fetch": "^2.7.0",
+    "cors": "^2.8.5"
+  }
+}
